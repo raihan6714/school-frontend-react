@@ -739,7 +739,7 @@ a.slidebtn i {
   Categories_wrap Css              
 -----------------------------------------*/
 .categories_wrap{z-index: 1000; margin-top: -70px; position: relative;}
-.categories-course{background: #3ab64c; padding:15px; text-align: center; border-radius: 12px;}
+.categories-course{background: #3ab64c; padding:15px; text-align: center; border-radius: 12px;height: 350px;}
 .categories-course h4{font-size: 24px; color: #fff; position: relative; margin-bottom: 30px;}
 .categories-course h4:before{content: ""; background: #fff; width: 40px; height: 2px; position: absolute; bottom: -15px; text-align: center; left:50%;  margin-left: -20px;}
 .categories-course p{font-size: 14px; color: #fff; line-height: 24px;}

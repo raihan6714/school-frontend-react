@@ -21,9 +21,51 @@
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" media="screen" />
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet"  id="colors">
+<link href="css/custom.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 <title>Biddyapith School Management System</title>
+<style>
+  .home-notice-box {
+      background-image: url(images/notice.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      padding: 100px 0;
+  }
+
+  .home-notice-content marquee {
+      height: 370px;
+  }
+  .home-notice-content ul li {
+      display: inline-block;
+      height: 67px;
+      width: 100%;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #0000000f;
+      padding: 10px;
+      margin-top: 5px;
+  }
+  .home-notice-content ul li a .home-notice-year-box {
+      width: 14%;
+      height: 50px;
+      margin-right: 10px;
+      float: left;
+      background: #005CAC 0% 0% no-repeat padding-box;
+      text-align: center;
+      /* padding: 5px; */
+  }
+  .home-notice-content ul li .home-notice-year-box .home-notice-content-month {
+      font-size: 15px;
+      color: #fff;
+      display: block;
+  }
+  .home-notice-content ul li .home-notice-year-box .home-notice-content-date {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 600;
+  }
+</style>
 </head>
 <body>
 
@@ -85,7 +127,7 @@
       <div class="col-lg-3">
         <div class="header_info">
           <div class="search"><a href="#"><i class="fas fa-search"></i></a></div>
-          <div class="loginwrp"><a href="login.html">Login/Register</a></div>
+          <div class="loginwrp"><a href="login.html">Login</a></div>
         </div>
       </div>
     </div>
@@ -154,7 +196,7 @@
               <div class="cours-icon"> <span class="coure-icon-inner"> <img src="images/teacher.png" alt=""> </span> </div>
               <div class="cours-title">
                 <h4>Expert teachers</h4>
-                <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+                <p>An expert teacher listens to students and asks questions to help them make sense of their own understanding of key ideas. Sometimes listening to students' reasoning as they solve problems tells you more about their understanding than a quiz or test grade.</p>
               </div>
             </div>
           </div>
@@ -167,7 +209,7 @@
               <div class="cours-icon"> <span class="coure-icon-inner"> <img src="images/book.png" alt=""> </span> </div>
               <div class="cours-title">
                 <h4>Quality Education</h4>
-                <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+                <p>Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</p>
               </div>
             </div>
           </div>
@@ -180,7 +222,7 @@
               <div class="cours-icon"> <span class="coure-icon-inner"> <img src="images/support.png" alt=""> </span> </div>
               <div class="cours-title">
                 <h4>Life Time Support</h4>
-                <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+                <p>Life support refers to a variety of medical procedures that aim to keep you alive until your body is ready to take over again. Life support replaces or supports a body function that's failing. Your healthcare providers may use life support until your body can resume normal functioning.</p>
               </div>
             </div>
           </div>
@@ -193,7 +235,7 @@
               <div class="cours-icon"> <span class="coure-icon-inner"> <img src="images/scholarship.png" alt=""> </span> </div>
               <div class="cours-title">
                 <h4>Scholarship News</h4>
-                <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+                <p>It provides completely funded scholarships in Ph. D. researches, Master's study, academic and professional fellowships. For developing and developed countries' people.</p>
               </div>
             </div>
           </div>
@@ -203,8 +245,213 @@
     </div>
   </div>
 </div>
-
 <!-- School End --> 
+
+
+<section class="home-notice">
+  <div class="container home-notice-box">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="home-notice-img"></div>
+      </div>
+      <div class="col-md-7 col-sm-12">
+              <div class="home-notice-content">
+                  <marquee behavior="" direction="up" scrollamount="2">
+                      <ul>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">26</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>গভর্নিং বডি নির্বাচন-২০২২ এর ফলাফল</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">12</span>
+                                      <span class="home-notice-content-date">Dec</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>১২ থেকে অনুর্দ্ধ ১৮ বছর বয়সী শিক্ষার্থীদের কোভিড-১৯ টিকা (১ম ডোজ) গ্রহন সংক্রান্ত নোটিশ। (13.12.2021)</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">30</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>১ম থেকে দ্বাদশ শ্রেণির বর্ধিত বেতন নোটিশ (নভেম্বর, ডিসেম্বর -২০২১)</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">25</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>১ম থেকে দ্বাদশ শ্রেণির সংশোধিত বেতন নোটিশ (নভেম্বর, ডিসেম্বর -২০২১)</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">25</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে শাখা ও শ্রেণি ভিত্তিক ১ম থেকে ৯ম শ্রেণিতে ছাত্রী ভর্তির তালিকা</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="">
+                                  <div class="home-notice-year-box">
+                                      <span class="home-notice-content-month">24</span>
+                                      <span class="home-notice-content-date">Nov</span>
+                                  </div>
+                                  <div class="home-notice-content-details">
+                                      <p>২০২২ শিক্ষাবর্ষে বাংলা ও ইংরেজি মাধ্যমে ১ম থেকে ৯ম শ্রেণিতে ভর্তি  সংক্রান্ত বিজ্ঞপ্তি</p>
+                                  </div>
+                              </a>
+                          </li>
+                      </ul>
+                  </marquee>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
 <!-- About Start -->
 <div class="about-wrap  " id="about">
