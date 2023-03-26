@@ -226,7 +226,7 @@ ul.tick li {
 .navbar-light .navbar-nav .nav-link {
   color: #000;
   font-size: 14px;
-  padding:34px 22px;
+  padding:34px 12px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -1796,7 +1796,7 @@ button:focus {
     margin: 0;
     opacity: 0;
     z-index: 9;
-    background-color:rgb(226 12 12 / 80%);
+    background-color:rgba(26, 169, 4, 0.63);
     -webkit-transition: .5s all ease;
     -ms-transition: .5s all ease;
     -moz-transition: .5s all ease;
@@ -1852,7 +1852,7 @@ button:focus {
     text-align: center;
 }
 .address-item .address-icon{
-    background: #ff002a;
+    background: #6ec860;
     height: 70px;
     width: 70px; color: #fff;
     line-height: 70px;
@@ -2062,7 +2062,7 @@ button:focus {
         Newsletter css
 *********************************************/
 .newsletter-wrap {
-  background: #e20c0c;
+  background: #6ec860;
   padding: 35px 45px;
   z-index: 1000;
   position: relative;
